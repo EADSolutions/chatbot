@@ -1,0 +1,11 @@
+Run Your Flask App with ngrok:
+In the Terminal, run your Flask app:
+
+bash
+Copy code
+python app.py
+In a new Terminal window, run ngrok to expose your local server to the internet:
+
+bash
+Copy code
+ngrok http 5000
